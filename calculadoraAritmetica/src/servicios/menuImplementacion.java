@@ -33,6 +33,18 @@ public class menuImplementacion implements menuInterfaz {
 		
 	}
 
+	@Override
+	public double PedirNumero() {
+		
+		double num;
+		Scanner sc=new Scanner(System.in);
+		
+		System.out.println("Introduzca un numero: ");
+		num=sc.nextInt();
+		
+		return num;
+	}
+
 	
 	
 
